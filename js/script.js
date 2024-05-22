@@ -43,6 +43,11 @@ function oggettoToString(oggetto) {
 }
 
 
+infoTeam.forEach(oggetto => {
+    const p = document.createElement('p');
+    p.textContent = oggettoToString(oggetto);
+    team.appendChild(p);
+});
 
 
 
