@@ -1,4 +1,7 @@
-const team = 
+const team = document.querySelector('div.team');
+
+
+const infoTeam = 
 [
     {
         nome: 'Wayne Barnett',
@@ -30,10 +33,20 @@ const team =
         ruolo: 'Graphic Designer', 
         foto: 'barbara-ramos-graphic-designer.jpg',
     }
-
+    
 ];
 
-console.log(team)
+console.log(infoTeam)
+
+function oggettoToString(oggetto) {
+    return `Nome: ${oggetto.nome}, Ruolo: ${oggetto.ruolo}, Foto: ${oggetto.foto}`;
+}
+
+
+
+
+
+
 
 		
 		
